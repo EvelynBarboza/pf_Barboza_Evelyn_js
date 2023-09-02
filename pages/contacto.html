@@ -47,27 +47,29 @@
     <div>
       <h2 class="titulo animate__animated animate__fadeInDown">CONTACTANOS</h2>
     </div>
-      <section>
+      <form id="datos-cliente">
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre y apellido">
+          <label for="nombre" class="form-label">Nombre y Apellido</label>
+          <input type="text" class="form-control" id="nombre" placeholder="nombre y apellido">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <label for="correo" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="correo" placeholder="name@example.com">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">DEJANOS TU CONSULTA</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label for="consulta" class="form-label">DEJANOS TU CONSULTA</label>
+          <textarea class="form-control" id="consulta" rows="3"></textarea>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
-          <button type="button" class="btn btn-outline-dark">ENVIAR</button>
+          <button type="submit" class="btn btn-outline-dark">ENVIAR</button>
         </div>
         <div class="comentario">
           <p>Tambien puedes comunicarte con nosotrxs via mail a travéz de este correo electrónico: natyevy12@gmail.com.</p>
         </div>
-      </section>
+      </form>
+      <div id="aviso" style="display: none;"></div>
   </main>
+  <script src="../js/form.js"></script>
 </body>
 <footer class="pie">
   <div>
@@ -79,3 +81,7 @@
   </div>
 </footer>
 </html>
+exampleFormControlInput1
+exampleFormControlTextarea1
+
+for="exampleFormControlInput1" 

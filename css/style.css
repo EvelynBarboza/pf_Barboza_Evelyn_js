@@ -231,15 +231,15 @@ article .cardn .card-body .card-text {
 }
 
 /*¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡          CONTACTO            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-main section .mb-3 {
+main form .mb-3 {
   margin: 50px;
 }
-main section .mb-3 .form-label {
+main form .mb-3 .form-label {
   font-family: "Crushed", cursive;
   color: #030003;
   margin: 2px;
 }
-main section .comentario {
+main form .comentario {
   font-family: "Crushed", cursive;
   color: #9e5f99;
   margin: 50px 100px;
@@ -247,4 +247,10 @@ main section .comentario {
   text-align: center;
 }
 
+main #aviso {
+  text-align: center;
+  background-color: #9e5f99;
+  color: #faf9fa;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
