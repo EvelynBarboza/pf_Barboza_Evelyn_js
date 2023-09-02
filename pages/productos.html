@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Zaida</title>
+    <meta name="description" content="Zaida Costura es un emprendimiento dedicado al diseño y confeccion de prendas">
+    <meta name="keywords" content="diseño, emprendimiento, prendas, marca, ropa">
+    <link rel="shortcut icon" href="../images/icon_zaidavioleta.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <img class="logo col-xl-3 col-xs-10" src="../images/logo/LogoZaida.png" alt="LOGO">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="productos.html">Nuestros productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="metodosdecompra.html">Metodos de compra</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="nosotros.html">Quienes somos ?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="two columns u-pull-right">
+        <ul>
+            <li class="submenu">
+                <img src="../images/carrito.png" id="img-carrito">
+
+                <div id="carrito">
+                    <!--completar el dibujo del carrito -->
+                    <table id="lista-carrito" class="u-full-width">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="boton u-full-width">Vaciar Carrito</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </nav>
+  </header>
+  <main>
+      <h1 class="titulo animate__animated animate__fadeInDown">NUESTROS PRODUCTOS</h1>
+    <section class="container2" id="lista-productos">
+      <!--<h1>CARRITO DE COMPRAS</h1>-->
+      <div class="row">
+      <div class="card col-xs-10 col-xl-4">
+        <img src="../images/labuena1.jpg" class="card-img-top" alt="imagen1">
+        <div class="card-body">
+          <h5 class="card-title">Strapless Bagó</h5>
+          <p class="precio">Precio $450</p>
+          <div class="d-grid gap-2">
+            <a href="#" class="u-full-width btn btn-outline-dark button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+            <!--<button class="btn btn-outline-dark" type="button" id="agregar-producto1">Agregar al carrito</button>-->
+          </div>
+        </div>
+      </div>
+      <div class="card col-xs-8 col-xl-4">
+        <img src="../images/topsirena-entero.jpg" class="card-img-top" alt="topsirena">
+        <div class="card-body">
+          <h5 class="card-title">Top Sirena</h5>
+          <p class="precio">Precio $490</p>
+          <div class="d-grid gap-2">
+            <a href="#" class="u-full-width btn btn-outline-dark button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+            <!--<button class="btn btn-outline-dark" type="button" id="agregar-producto2">Agregar al carrito</button>-->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      <div class="card-top col-xs-8 col-xl-10">
+        <img src="../images/terciopelomedio.jpg" class="card-img-top" alt="terciopelo">
+        <div class="card-body">
+          <h5 class="card-title">Top Aterciopelado</h5>
+          <p class="precio">Precio $650</p>
+          <div class="d-grid gap-2">
+            <a href="#" class="u-full-width btn btn-outline-dark button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+            <!--<button class="btn btn-outline-dark" type="button" id="agregar-producto3">Agregar al carrito</button>-->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      <div class="card col-xs-8 col-xl-4">
+        <img src="../images/cierrefrente.jpg" class="card-img-top" alt="topcierre">
+        <div class="card-body">
+          <h5 class="card-title">Musculosa Frank</h5>
+          <p class="precio">Precio $490</p>
+          <div class="d-grid gap-2">
+            <a href="#" class="u-full-width btn btn-outline-dark button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+            <!--<button class="btn btn-outline-dark" type="button" id="agregar-producto4">Agregar al carrito</button>-->
+          </div>
+        </div>
+      </div>
+      <div class="card col-xs-8 col-xl-4">
+        <img src="../images/topmetalizado.jpg" class="card-img-top" alt="topmetalizado">
+        <div class="card-body">
+          <h5 class="card-title">Strapless Metalizado</h5>
+          <p class="precio">Precio $520</p>
+          <div class="d-grid gap-2">
+            <a href="#" class="u-full-width btn btn-outline-dark button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+            <!--<button class="btn btn-outline-dark" type="button" id="agregar-producto5">Agregar al carrito</button>-->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<footer class="pie">
+  <div >
+      <h3 class="titulopie">SEGUINOS EN REDES SOCIALES</h3>
+      <h4 class="redes">INSTAGRAM: <a href="https://www.instagram.com/zaidacostura/" target="_blank">zaidacostura</a></h4>
+      <h4 class="redes">FACEBOOK: <a href="https://www.facebook.com/EveGime2017/" target="_blank">zaidacostura</a></h4>
+      <h4 class="redes">WHATSAPP: +598 94 404 967</h4>
+      <h3 class="contact">Zaida Costura - Evelyn Barboza</h3>
+  </div>
+</footer>
+<script src="../js/productos.js"></script>
+</body>
+</html>
