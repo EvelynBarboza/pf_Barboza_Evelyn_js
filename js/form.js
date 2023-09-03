@@ -25,6 +25,7 @@
     });
 
     // ------------------- CARGAR VALORES DEL LOCAL STORAGE ------------------
+    
     /*window.addEventListener('load', function () {
       const nombreGuardado = localStorage.getItem('nombre');
       const correoGuardado = localStorage.getItem('correo');
